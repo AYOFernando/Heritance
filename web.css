@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Margin*/
+html.body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+p{
+    margin: 10px 0;
+}
+
+/*Utility class*/
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    background: black;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: gold;
+    background: black;
+}
+
+/*Navigationbar*/
+#navbar{
+    background: black;
+    color: white;
+    overflow: auto;
+    width: 100%;
+    height: auto;
+}
+
+#navbar a{
+    color: white;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 10px;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+#navbar ul li a:hover{
+    background: gold;
+    color: black;
+}
+
+/*Slider*/
+#slider{
+    width: 100%;
+    margin: 0;
+    height: auto;
+}
+
+/*Main*/
+#main{
+    width: 100%;
+    height: auto;
+}
+
+#main .maincontent{
+    color: black;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#main .maincontent h1{
+    font-size: 60px;
+    line-height: 1.5em;
+}
+
+#main .maincontent p{
+    padding-bottom: 20px;
+    line-height: 2em;
+    font-size: 30px;
+}
+
+/*Home-gallery*/
+section{
+    width: 100%;
+}
+
+.galcont{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    margin: left;
+}
+
+.gal{
+    float: left;
+    min-height: 100%;
+    width: 50%;
+}
+
+
+
+/*Footer*/
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.sec {
+    margin-right: 30px;
+}
+
+.aboutus {
+    width: 40%;
+}
+
+h2 {
+    position: relative;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+
+p {
+    color: grey;
+}
+
+.lg {
+    margin-top: 20px;
+    display: flex;
+}
+
+.lg li {
+    list-style: none;
+    margin-right: 1%;
+}
+
+.lg li img {
+    border-radius: 4px;
+}
+
+.lg li a {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.lg li a:hover {
+    background: grey;
+}
+
+.lg li a .fa {
+    color: white;
+    font-size: 20px;
+}
+
+.quickLinks {
+    position: relative;
+    width: 25%;
+}
+
+.quickLinks ul li {
+    list-style: none;
+}
+
+.quickLinks ul li a {
+    color: grey;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.quickLinks ul li a:hover {
+    color: white;
+}
+
+.contact {
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+
+.contact .info {
+    position: relative;
+}
+
+.contact .info li {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.contact .info li span:nth-child(1) {
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contact .info li span {
+    color: grey;
+}
+
+.contact .info li span img {
+    border-radius: 4px;
+}
+
+.contact .info li a {
+    color: grey;
+    text-decoration: none;
+}
+
+.contact .info li a:hover {
+    color: white;
+}
+
+
+
+
+
+/*About Page*/
+#about-info .info-top{
+    display: block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    height: auto;
+}
+
+#about-info .info-btm{
+    width: 100%;
+    min-height: 100%;
+    inline-size: auto;
+    align-items: center;
+    text-align: center ;
+}
+
+
+/*Gallery page*/
+#image1{
+    align-items: center;
+    text-align: center;
+}
+
+
+/*Event page*/
+#event{
+    height: 600px;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#event .h1{
+    font-size: 60px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+#event .p{
+    padding-bottom: 20px;
+    line-height: 2em;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/*Gallery page*/
+#imggg{
+    mask-image: cover;
+
+}
+
+
+/*Booking*/
+#contentbook{
+    background-image: url("collage.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 990px){
+    footer {
+        padding: 40px;
+    }
+    footer .container {
+        flex-direction: column;
+    }
+    .sec {
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+    .aboutus, .quickLinks, .contact {
+        width: 100%;
+    }
+    .copyrightText {
+        padding: 8px 40px;
+    }
+}

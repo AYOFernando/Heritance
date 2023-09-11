@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Margin*/
+html.body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+p{
+    margin: 10px 0;
+}
+
+/*Utility class*/
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    background: black;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: gold;
+    background: black;
+}
+
+/*Navigationbar*/
+#navbar{
+    background: black;
+    color: white;
+    overflow: auto;
+}
+
+#navbar a{
+    color: white;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover{
+    background: gold;
+    color: black;
+}
+
+/*Slider*/
+
+.business{
+    width: 100%;
+    align-items: center;
+}
+
+.business h1{
+    color: black;
+    font-size: larger;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+}
+
+.content{
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.business .img{
+    align-items: center;
+}
